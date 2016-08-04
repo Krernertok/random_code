@@ -1,0 +1,4 @@
+RESULT_NUM = 20
+MINIMUM_SCRIPT_SIZE = 2000
+FILENAME = 'python_links.py'
+ACCESS_TOKEN_PARAM = 'access_token=fb2bcb648034ae8b8908cc1b5fb555a6ce720f72'

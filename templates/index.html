@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Python Code</title>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='random_code.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}"></link>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="page-wrapper">
+        <h1>Random Python Code</h1>
+        <p><button id="new-script-button">Get another random script!</button></p>
+        <img id="loader" src="{{ url_for('static', filename='gif/ajax-loader.gif') }}">
+        <div id="code-content"><div>
+    </div>
+</body>
+</html>

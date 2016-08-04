@@ -1,0 +1,40 @@
+body {
+    background-color: #FFF;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+}
+
+.page-wrapper {
+    margin: 5%;
+}
+
+// .code-wrapper {
+//     padding: 3px;
+//     background-color: #EFEFEF;
+//     border: 1px solid #CCC;
+//     border-radius: 5px;
+// }
+
+.code {
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#loader {
+    display: block;
+    margin: 80px auto;
+}
